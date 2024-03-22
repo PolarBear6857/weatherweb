@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('monocraft.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    background-color: black;
+}
+
+#weather-info {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
